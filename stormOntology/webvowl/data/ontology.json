@@ -1,0 +1,5166 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
+  "header" : {
+    "languages" : [ "en", "undefined" ],
+    "baseIris" : [ "http://www.w3.org/1999/02/22-rdf-syntax-ns", "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm", "http://purl.org/spar/c4o", "https://w3id.org/framester/metanet/schema", "http://www.w3.org/2002/07/owl", "http://www.w3.org/2000/01/rdf-schema", "http://www.w3.org/2001/XMLSchema", "http://purl.org/spar/fabio", "http://xmlns.com/foaf/0.1" ],
+    "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+    "comments" : {
+      "undefined" : "The STORM (STOrytelling and Metaphors) ontology examines metaphors and their connections to storytelling theories by influential scholars. More specifically, the ontology focuses on metaphors found in Shakespearean works and the ways in which they reflect storytelling aspects. With this project we attempt to demonstrate that metaphors do not only throw light on the conscious or subconscious narrative methods employed by the author, but that they may also provide insight into the main ideas of a story. Ultimately, we argue that the topic of a story may be extracted by the metaphors found in the work."
+    }
+  },
+  "namespace" : [ ],
+  "class" : [ {
+    "id" : "12",
+    "type" : "owl:Class"
+  }, {
+    "id" : "15",
+    "type" : "owl:Class"
+  }, {
+    "id" : "17",
+    "type" : "owl:Class"
+  }, {
+    "id" : "43",
+    "type" : "owl:Class"
+  }, {
+    "id" : "55",
+    "type" : "owl:Class"
+  }, {
+    "id" : "62",
+    "type" : "owl:Class"
+  }, {
+    "id" : "73",
+    "type" : "owl:Class"
+  }, {
+    "id" : "69",
+    "type" : "owl:Class"
+  }, {
+    "id" : "79",
+    "type" : "owl:Class"
+  }, {
+    "id" : "82",
+    "type" : "owl:Class"
+  }, {
+    "id" : "84",
+    "type" : "owl:Class"
+  }, {
+    "id" : "85",
+    "type" : "owl:Class"
+  }, {
+    "id" : "89",
+    "type" : "owl:Class"
+  }, {
+    "id" : "28",
+    "type" : "owl:Class"
+  }, {
+    "id" : "91",
+    "type" : "owl:Class"
+  }, {
+    "id" : "7",
+    "type" : "owl:Class"
+  }, {
+    "id" : "94",
+    "type" : "owl:Class"
+  }, {
+    "id" : "63",
+    "type" : "owl:Class"
+  }, {
+    "id" : "13",
+    "type" : "owl:Class"
+  }, {
+    "id" : "134",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "137",
+    "type" : "owl:Class"
+  }, {
+    "id" : "47",
+    "type" : "owl:Class"
+  }, {
+    "id" : "78",
+    "type" : "owl:Class"
+  }, {
+    "id" : "142",
+    "type" : "owl:Class"
+  }, {
+    "id" : "143",
+    "type" : "owl:Class"
+  }, {
+    "id" : "29",
+    "type" : "owl:Class"
+  }, {
+    "id" : "145",
+    "type" : "owl:Class"
+  }, {
+    "id" : "126",
+    "type" : "owl:Class"
+  }, {
+    "id" : "146",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "148",
+    "type" : "owl:Class"
+  }, {
+    "id" : "38",
+    "type" : "owl:Class"
+  }, {
+    "id" : "144",
+    "type" : "owl:Class"
+  }, {
+    "id" : "121",
+    "type" : "owl:Class"
+  }, {
+    "id" : "41",
+    "type" : "owl:Class"
+  }, {
+    "id" : "149",
+    "type" : "owl:Class"
+  }, {
+    "id" : "76",
+    "type" : "owl:Class"
+  }, {
+    "id" : "48",
+    "type" : "owl:Class"
+  }, {
+    "id" : "52",
+    "type" : "owl:Class"
+  }, {
+    "id" : "1",
+    "type" : "owl:Class"
+  }, {
+    "id" : "2",
+    "type" : "owl:Class"
+  }, {
+    "id" : "151",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "51",
+    "type" : "owl:Class"
+  }, {
+    "id" : "156",
+    "type" : "owl:Class"
+  }, {
+    "id" : "147",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "125",
+    "type" : "owl:Class"
+  }, {
+    "id" : "122",
+    "type" : "owl:Class"
+  }, {
+    "id" : "131",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "170",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "45",
+    "type" : "owl:Class"
+  }, {
+    "id" : "34",
+    "type" : "owl:Class"
+  }, {
+    "id" : "141",
+    "type" : "owl:Class"
+  }, {
+    "id" : "175",
+    "type" : "owl:Class"
+  }, {
+    "id" : "61",
+    "type" : "owl:Class"
+  }, {
+    "id" : "16",
+    "type" : "owl:Class"
+  }, {
+    "id" : "176",
+    "type" : "owl:Class"
+  }, {
+    "id" : "178",
+    "type" : "owl:Class"
+  }, {
+    "id" : "169",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "21",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "32",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "54",
+    "type" : "owl:Class"
+  }, {
+    "id" : "129",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "120",
+    "type" : "owl:Class"
+  }, {
+    "id" : "181",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "74",
+    "type" : "owl:Class"
+  }, {
+    "id" : "88",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "154",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "159",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "133",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "187",
+    "type" : "owl:Class"
+  }, {
+    "id" : "44",
+    "type" : "owl:Class"
+  }, {
+    "id" : "190",
+    "type" : "owl:Class"
+  }, {
+    "id" : "9",
+    "type" : "owl:Class"
+  }, {
+    "id" : "77",
+    "type" : "owl:Class"
+  }, {
+    "id" : "157",
+    "type" : "owl:Class"
+  }, {
+    "id" : "127",
+    "type" : "owl:Class"
+  }, {
+    "id" : "10",
+    "type" : "owl:Class"
+  }, {
+    "id" : "36",
+    "type" : "owl:Class"
+  }, {
+    "id" : "164",
+    "type" : "owl:Class"
+  }, {
+    "id" : "124",
+    "type" : "owl:Class"
+  }, {
+    "id" : "18",
+    "type" : "owl:Class"
+  }, {
+    "id" : "75",
+    "type" : "owl:Class"
+  }, {
+    "id" : "226",
+    "type" : "owl:Class"
+  }, {
+    "id" : "40",
+    "type" : "owl:Class"
+  }, {
+    "id" : "86",
+    "type" : "owl:Class"
+  }, {
+    "id" : "152",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "71",
+    "type" : "owl:Class"
+  }, {
+    "id" : "90",
+    "type" : "owl:Class"
+  }, {
+    "id" : "83",
+    "type" : "owl:Class"
+  }, {
+    "id" : "4",
+    "type" : "owl:Class"
+  }, {
+    "id" : "231",
+    "type" : "owl:Class"
+  }, {
+    "id" : "150",
+    "type" : "owl:Class"
+  }, {
+    "id" : "135",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "123",
+    "type" : "owl:Class"
+  }, {
+    "id" : "65",
+    "type" : "owl:Class"
+  }, {
+    "id" : "203",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "189",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "96",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "81",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "180",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "172",
+    "type" : "owl:Class"
+  }, {
+    "id" : "31",
+    "type" : "owl:Class"
+  }, {
+    "id" : "56",
+    "type" : "owl:Class"
+  }, {
+    "id" : "173",
+    "type" : "owl:Class"
+  }, {
+    "id" : "58",
+    "type" : "owl:Class"
+  }, {
+    "id" : "166",
+    "type" : "owl:Class"
+  }, {
+    "id" : "5",
+    "type" : "owl:Class"
+  } ],
+  "classAttribute" : [ {
+    "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Family_metaphor",
+    "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Family_metaphor"
+    },
+    "id" : "12",
+    "superClasses" : [ "13" ]
+  }, {
+    "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Princess",
+    "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Princess"
+    },
+    "individuals" : [ {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Celia",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "comment" : {
+        "undefined" : "Rosalind's cousin, daughter to Duke Frederick"
+      },
+      "labels" : {
+        "IRI-based" : "Celia"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Rosalind",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "comment" : {
+        "undefined" : "daughter to Duke Senior"
+      },
+      "labels" : {
+        "IRI-based" : "Rosalind"
+      }
+    } ],
+    "id" : "15",
+    "superClasses" : [ "16" ]
+  }, {
+    "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Pain_metaphor",
+    "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Pain_metaphor"
+    },
+    "id" : "17",
+    "superClasses" : [ "18" ]
+  }, {
+    "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Propp's_theory",
+    "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Propp's_theory"
+    },
+    "subClasses" : [ "16", "45" ],
+    "id" : "43",
+    "superClasses" : [ "44" ]
+  }, {
+    "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Subtext",
+    "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Subtext"
+    },
+    "individuals" : [ {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Revealing_emotions",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "labels" : {
+        "IRI-based" : "Revealing_emotions"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Revealing_thoughts",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "labels" : {
+        "IRI-based" : "Revealing_thoughts"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "Hinting at the emotion/intention a character is trying to conceal"
+    },
+    "id" : "55",
+    "superClasses" : [ "56" ]
+  }, {
+    "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Love",
+    "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Love"
+    },
+    "individuals" : [ {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Unrequited_love",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "labels" : {
+        "IRI-based" : "Unrequited_love"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Delights_of_love",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "labels" : {
+        "IRI-based" : "Delights_of_love"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Suffering",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "labels" : {
+        "IRI-based" : "Suffering"
+      }
+    } ],
+    "id" : "62",
+    "superClasses" : [ "63" ]
+  }, {
+    "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Physical_object_metaphor",
+    "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Physical_object_metaphor"
+    },
+    "individuals" : [ {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#MM_13",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "labels" : {
+        "IRI-based" : "MM_13"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#YLM_10",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "labels" : {
+        "IRI-based" : "YLM_10"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#YLM_33",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "labels" : {
+        "IRI-based" : "YLM_33"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#MM_21",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "labels" : {
+        "IRI-based" : "MM_21"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#MM_27",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "labels" : {
+        "IRI-based" : "MM_27"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#MM_04",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "labels" : {
+        "IRI-based" : "MM_04"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#MM_19",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "labels" : {
+        "IRI-based" : "MM_19"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#MM_08",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "labels" : {
+        "IRI-based" : "MM_08"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#YLM_02",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "labels" : {
+        "IRI-based" : "YLM_02"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#YLM_35",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "labels" : {
+        "IRI-based" : "YLM_35"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#YLM_15",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "labels" : {
+        "IRI-based" : "YLM_15"
+      }
+    } ],
+    "subClasses" : [ "74", "75" ],
+    "id" : "73",
+    "superClasses" : [ "31" ]
+  }, {
+    "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Nature_metaphor",
+    "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Nature_metaphor"
+    },
+    "subClasses" : [ "76", "77", "78" ],
+    "id" : "69",
+    "superClasses" : [ "31" ]
+  }, {
+    "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Object",
+    "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Object"
+    },
+    "individuals" : [ {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Being_king",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "labels" : {
+        "IRI-based" : "Being_king"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Birthright_recognized",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "labels" : {
+        "IRI-based" : "Birthright_recognized"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "The aim of the Narrative Program"
+    },
+    "id" : "79",
+    "superClasses" : [ "40" ]
+  }, {
+    "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Euphoria",
+    "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Euphoria"
+    },
+    "individuals" : [ {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Positive_feelings",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "labels" : {
+        "IRI-based" : "Positive_feelings"
+      }
+    } ],
+    "id" : "82",
+    "superClasses" : [ "83" ]
+  }, {
+    "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Politics",
+    "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Politics"
+    },
+    "individuals" : [ {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Usurping_the_throne",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "labels" : {
+        "IRI-based" : "Usurping_the_throne"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Tyranny",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "labels" : {
+        "IRI-based" : "Tyranny"
+      }
+    } ],
+    "id" : "84",
+    "superClasses" : [ "63" ]
+  }, {
+    "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Synthesis",
+    "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Synthesis"
+    },
+    "individuals" : [ {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Rightful_king_restored",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "labels" : {
+        "IRI-based" : "Rightful_king_restored"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Reflections",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "labels" : {
+        "IRI-based" : "Reflections"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Marriage",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "labels" : {
+        "IRI-based" : "Marriage"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Reaction_to_villainous_attack",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "labels" : {
+        "IRI-based" : "Reaction_to_villainous_attack"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Exposition_of_villain",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "labels" : {
+        "IRI-based" : "Exposition_of_villain"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Love_confession",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "labels" : {
+        "IRI-based" : "Love_confession"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Love_and_justice_secured",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "labels" : {
+        "IRI-based" : "Love_and_justice_secured"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "Resolution"
+    },
+    "id" : "85",
+    "superClasses" : [ "86" ]
+  }, {
+    "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Manipulation",
+    "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Manipulation"
+    },
+    "individuals" : [ {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Prophecy",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "labels" : {
+        "IRI-based" : "Prophecy"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Formation_of_a_plan",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "labels" : {
+        "IRI-based" : "Formation_of_a_plan"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Escape_from_danger",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "labels" : {
+        "IRI-based" : "Escape_from_danger"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "Stage where a Sender persuades a Subject to go on a mission and address initial lack"
+    },
+    "id" : "89",
+    "superClasses" : [ "90" ]
+  }, {
+    "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Damage_metaphor",
+    "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Damage_metaphor"
+    },
+    "id" : "28",
+    "superClasses" : [ "71" ]
+  }, {
+    "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Princess's_father",
+    "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Princess's_father"
+    },
+    "individuals" : [ {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Duke_Frederick",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "comment" : {
+        "undefined" : "the usurping duke"
+      },
+      "labels" : {
+        "IRI-based" : "Duke_Frederick"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Duke_Senior",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "comment" : {
+        "undefined" : "the exiled duke, brother to Duke Frederick"
+      },
+      "labels" : {
+        "IRI-based" : "Duke_Senior"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "The father of the princess and the character who may constrain the princess or function as a Dispatcher, sending the Hero on a mission to save the princess"
+    },
+    "id" : "91",
+    "superClasses" : [ "16" ]
+  }, {
+    "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Change",
+    "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Change"
+    },
+    "individuals" : [ {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Emotional_state",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "labels" : {
+        "IRI-based" : "Emotional_state"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Disappearance",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "labels" : {
+        "IRI-based" : "Disappearance"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Personal_growth",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "labels" : {
+        "IRI-based" : "Personal_growth"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Planning",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "labels" : {
+        "IRI-based" : "Planning"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Living_conditions",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "labels" : {
+        "IRI-based" : "Living_conditions"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Mental_state",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "labels" : {
+        "IRI-based" : "Mental_state"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Hostile_move",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "labels" : {
+        "IRI-based" : "Hostile_move"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Disguise",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "labels" : {
+        "IRI-based" : "Disguise"
+      }
+    } ],
+    "id" : "7",
+    "superClasses" : [ "48", "5" ]
+  }, {
+    "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Sanction",
+    "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Sanction"
+    },
+    "individuals" : [ {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Tyrant_defeated",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "labels" : {
+        "IRI-based" : "Tyrant_defeated"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Love_and_justice_secured",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "labels" : {
+        "IRI-based" : "Love_and_justice_secured"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "Stage of judgement"
+    },
+    "id" : "94",
+    "superClasses" : [ "90" ]
+  }, {
+    "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Isotopy",
+    "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Isotopy"
+    },
+    "subClasses" : [ "121", "29", "62", "122", "123", "124", "125", "84", "126" ],
+    "comment" : {
+      "undefined" : "A repetition of a semantic feature"
+    },
+    "id" : "63",
+    "superClasses" : [ "120" ]
+  }, {
+    "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Living_entity_metaphor",
+    "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Living_entity_metaphor"
+    },
+    "individuals" : [ {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#MM_12",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "labels" : {
+        "IRI-based" : "MM_12"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#YLM_33",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "labels" : {
+        "IRI-based" : "YLM_33"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#YLM_09",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "labels" : {
+        "IRI-based" : "YLM_09"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#MM_25",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "labels" : {
+        "IRI-based" : "MM_25"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#YLM_05",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "labels" : {
+        "IRI-based" : "YLM_05"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#YLM_18",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "labels" : {
+        "IRI-based" : "YLM_18"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#YLM_19",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "labels" : {
+        "IRI-based" : "YLM_19"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#YLM_23",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "labels" : {
+        "IRI-based" : "YLM_23"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#YLM_13",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "labels" : {
+        "IRI-based" : "YLM_13"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#YLM_14",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "labels" : {
+        "IRI-based" : "YLM_14"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#YLM_03",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "labels" : {
+        "IRI-based" : "YLM_03"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#YLM_04",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "labels" : {
+        "IRI-based" : "YLM_04"
+      }
+    } ],
+    "subClasses" : [ "127", "9", "12" ],
+    "id" : "13",
+    "superClasses" : [ "31" ]
+  }, {
+    "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Subject",
+    "equivalent" : [ "135" ],
+    "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Subject"
+    },
+    "individuals" : [ {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Macbeth",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "comment" : {
+        "undefined" : "Nobleman of Scotland"
+      },
+      "labels" : {
+        "IRI-based" : "Macbeth"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Orlando",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "comment" : {
+        "undefined" : "youngest son of Sir Rowland de Boys"
+      },
+      "labels" : {
+        "IRI-based" : "Orlando"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Malcolm",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "comment" : {
+        "undefined" : "Duncan's first-born son"
+      },
+      "labels" : {
+        "IRI-based" : "Malcolm"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "The protagonist; the character who carries out the Narrative Program"
+    },
+    "attributes" : [ "equivalent" ],
+    "id" : "134",
+    "superClasses" : [ "40" ]
+  }, {
+    "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#False_hero",
+    "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "False_hero"
+    },
+    "comment" : {
+      "undefined" : "The character who pretends heroism and is initially mistaken for a Hero"
+    },
+    "id" : "137",
+    "superClasses" : [ "16" ]
+  }, {
+    "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Internal_conflict",
+    "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Internal_conflict"
+    },
+    "individuals" : [ {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Duty_clashing_with_desire",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "labels" : {
+        "IRI-based" : "Duty_clashing_with_desire"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Ethical_implications_of_revenge",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "labels" : {
+        "IRI-based" : "Ethical_implications_of_revenge"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Behavior_incompatible_with_character",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "labels" : {
+        "IRI-based" : "Behavior_incompatible_with_character"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Emotion_clashing_with_character",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "labels" : {
+        "IRI-based" : "Emotion_clashing_with_character"
+      }
+    } ],
+    "id" : "47",
+    "superClasses" : [ "48" ]
+  }, {
+    "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Plant_metaphor",
+    "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Plant_metaphor"
+    },
+    "id" : "78",
+    "superClasses" : [ "69" ]
+  }, {
+    "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Polemical_structure",
+    "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Polemical_structure"
+    },
+    "individuals" : [ {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Clash_over_the_throne",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "labels" : {
+        "IRI-based" : "Clash_over_the_throne"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Restoration_of_justice",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "labels" : {
+        "IRI-based" : "Restoration_of_justice"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Recognition_of_birthright",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "labels" : {
+        "IRI-based" : "Recognition_of_birthright"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "The clash between the Narrative Program of the Subject and the one of the antagonist"
+    },
+    "id" : "142",
+    "superClasses" : [ "120" ]
+  }, {
+    "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Poem",
+    "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Poem"
+    },
+    "individuals" : [ {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Theocritus_Idylls",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "labels" : {
+        "IRI-based" : "Theocritus_Idylls"
+      }
+    } ],
+    "id" : "143",
+    "superClasses" : [ "38" ]
+  }, {
+    "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Health",
+    "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Health"
+    },
+    "individuals" : [ {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Food",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "labels" : {
+        "IRI-based" : "Food"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Damage",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "labels" : {
+        "IRI-based" : "Damage"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Nutrition",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "labels" : {
+        "IRI-based" : "Nutrition"
+      }
+    } ],
+    "id" : "29",
+    "superClasses" : [ "63" ]
+  }, {
+    "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Performance",
+    "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Performance"
+    },
+    "individuals" : [ {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Murder",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "labels" : {
+        "IRI-based" : "Murder"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Sparing_the_enemy",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "labels" : {
+        "IRI-based" : "Sparing_the_enemy"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Reign",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "labels" : {
+        "IRI-based" : "Reign"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Clash",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "labels" : {
+        "IRI-based" : "Clash"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "Stage of clash with the enemy"
+    },
+    "id" : "145",
+    "superClasses" : [ "90" ]
+  }, {
+    "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Remorse",
+    "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Remorse"
+    },
+    "individuals" : [ {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Guilt",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "labels" : {
+        "IRI-based" : "Guilt"
+      }
+    } ],
+    "id" : "126",
+    "superClasses" : [ "63" ]
+  }, {
+    "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Sender",
+    "equivalent" : [ "147" ],
+    "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Sender"
+    },
+    "individuals" : [ {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Adam",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "comment" : {
+        "undefined" : "servant to Oliver and friend to Orlando"
+      },
+      "labels" : {
+        "IRI-based" : "Adam"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Lady_Macbeth",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "comment" : {
+        "undefined" : "Wife of Macbeth"
+      },
+      "labels" : {
+        "IRI-based" : "Lady_Macbeth"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "The character who assigns the mission"
+    },
+    "attributes" : [ "equivalent" ],
+    "id" : "146",
+    "superClasses" : [ "40" ]
+  }, {
+    "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Competence",
+    "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Competence"
+    },
+    "individuals" : [ {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Preparation_for_murder",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "labels" : {
+        "IRI-based" : "Preparation_for_murder"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Passage_through_the_woods",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "labels" : {
+        "IRI-based" : "Passage_through_the_woods"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "Stage where a Subject gains necessary abilities; possibly helped by a helper or impeded by an opponent"
+    },
+    "id" : "148",
+    "superClasses" : [ "90" ]
+  }, {
+    "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Work",
+    "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Work"
+    },
+    "subClasses" : [ "143", "149", "2" ],
+    "id" : "38"
+  }, {
+    "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Participant_metaphor",
+    "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Participant_metaphor"
+    },
+    "id" : "144",
+    "superClasses" : [ "18" ]
+  }, {
+    "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Nature",
+    "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Nature"
+    },
+    "individuals" : [ {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Field",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "labels" : {
+        "IRI-based" : "Field"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Plant",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "labels" : {
+        "IRI-based" : "Plant"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Animal",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "labels" : {
+        "IRI-based" : "Animal"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Water",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "labels" : {
+        "IRI-based" : "Water"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Ocean",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "labels" : {
+        "IRI-based" : "Ocean"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Tree",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "labels" : {
+        "IRI-based" : "Tree"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Insect",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "labels" : {
+        "IRI-based" : "Insect"
+      }
+    } ],
+    "id" : "121",
+    "superClasses" : [ "63" ]
+  }, {
+    "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Speaker",
+    "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Speaker"
+    },
+    "subClasses" : [ "40", "16" ],
+    "id" : "41",
+    "superClasses" : [ "44" ]
+  }, {
+    "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Other",
+    "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Other"
+    },
+    "individuals" : [ {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Rooted_sorrow",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "labels" : {
+        "IRI-based" : "Rooted_sorrow"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Bible",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "labels" : {
+        "IRI-based" : "Bible"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Our_naked_frailties",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "labels" : {
+        "IRI-based" : "Our_naked_frailties"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Taste_of_fears",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "labels" : {
+        "IRI-based" : "Taste_of_fears"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Milk_of_human_kindness",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "labels" : {
+        "IRI-based" : "Milk_of_human_kindness"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#V_for_Vendetta",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "labels" : {
+        "IRI-based" : "V_for_Vendetta"
+      }
+    } ],
+    "id" : "149",
+    "superClasses" : [ "38" ]
+  }, {
+    "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Natural_element_metaphor",
+    "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Natural_element_metaphor"
+    },
+    "id" : "76",
+    "superClasses" : [ "69" ]
+  }, {
+    "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Story_development_technique",
+    "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Story_development_technique"
+    },
+    "subClasses" : [ "47", "7" ],
+    "id" : "48",
+    "superClasses" : [ "150" ]
+  }, {
+    "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Semiotic_space",
+    "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Semiotic_space"
+    },
+    "subClasses" : [ "51", "54" ],
+    "id" : "52",
+    "superClasses" : [ "44" ]
+  }, {
+    "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Comedy",
+    "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Comedy"
+    },
+    "individuals" : [ {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#As_You_Like_It",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "labels" : {
+        "IRI-based" : "As_You_Like_It"
+      }
+    } ],
+    "id" : "1",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Play",
+    "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Play"
+    },
+    "individuals" : [ {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Hamlet",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "labels" : {
+        "IRI-based" : "Hamlet"
+      }
+    } ],
+    "subClasses" : [ "34", "36", "1" ],
+    "id" : "2",
+    "superClasses" : [ "38" ]
+  }, {
+    "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Villain",
+    "equivalent" : [ "152" ],
+    "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Villain"
+    },
+    "attributes" : [ "equivalent" ],
+    "id" : "151",
+    "superClasses" : [ "16" ]
+  }, {
+    "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Topic",
+    "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Topic"
+    },
+    "individuals" : [ {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Dunsinane_Royal_Palace",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "labels" : {
+        "IRI-based" : "Dunsinane_Royal_Palace"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Forest_of_Arden",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "labels" : {
+        "IRI-based" : "Forest_of_Arden"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "Where the stage of performance takes place"
+    },
+    "id" : "51",
+    "superClasses" : [ "52" ]
+  }, {
+    "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Midpoint",
+    "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Midpoint"
+    },
+    "individuals" : [ {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Murder",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "labels" : {
+        "IRI-based" : "Murder"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Love_as_struggle",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "labels" : {
+        "IRI-based" : "Love_as_struggle"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "Most important part of the story; the turning point; the stage around the middle of the story where many significant events occur"
+    },
+    "id" : "156",
+    "superClasses" : [ "157" ]
+  }, {
+    "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Dispatcher",
+    "equivalent" : [ "146" ],
+    "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Dispatcher"
+    },
+    "comment" : {
+      "undefined" : "The character who sets the Hero on a mission"
+    },
+    "attributes" : [ "equivalent" ],
+    "id" : "147",
+    "superClasses" : [ "16" ]
+  }, {
+    "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Power",
+    "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Power"
+    },
+    "individuals" : [ {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Abuse_of_power",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "labels" : {
+        "IRI-based" : "Abuse_of_power"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Ambition",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "labels" : {
+        "IRI-based" : "Ambition"
+      }
+    } ],
+    "id" : "125",
+    "superClasses" : [ "63" ]
+  }, {
+    "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Spaces",
+    "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+    "instances" : 1,
+    "label" : {
+      "IRI-based" : "Spaces"
+    },
+    "individuals" : [ {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Container",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "labels" : {
+        "IRI-based" : "Container"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Refuge",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "labels" : {
+        "IRI-based" : "Refuge"
+      }
+    } ],
+    "id" : "122",
+    "superClasses" : [ "63" ]
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "131",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "170",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Trial",
+    "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Trial"
+    },
+    "subClasses" : [ "173", "172", "164" ],
+    "id" : "45",
+    "superClasses" : [ "43" ]
+  }, {
+    "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Tragedy",
+    "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Tragedy"
+    },
+    "individuals" : [ {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Macbeth_play",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "labels" : {
+        "IRI-based" : "Macbeth_play"
+      }
+    } ],
+    "id" : "34",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Value",
+    "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Value"
+    },
+    "individuals" : [ {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Reciprocal_romantic_feelings",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "labels" : {
+        "IRI-based" : "Reciprocal_romantic_feelings"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Being_king",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "labels" : {
+        "IRI-based" : "Being_king"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Not_reciprocal_romantic_feelings",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "labels" : {
+        "IRI-based" : "Not_reciprocal_romantic_feelings"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Birthright_not_recognized",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "labels" : {
+        "IRI-based" : "Birthright_not_recognized"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Not_eliminating_enemies",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "labels" : {
+        "IRI-based" : "Not_eliminating_enemies"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Eliminating_enemies",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "labels" : {
+        "IRI-based" : "Eliminating_enemies"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Not_being_king",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "labels" : {
+        "IRI-based" : "Not_being_king"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Birthright_recognized",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "labels" : {
+        "IRI-based" : "Birthright_recognized"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "The narrative/semantic structure; what pushes the Subject to undertake a Narrative Program"
+    },
+    "id" : "141",
+    "superClasses" : [ "120" ]
+  }, {
+    "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Receiver",
+    "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Receiver"
+    },
+    "individuals" : [ {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Macbeth",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "comment" : {
+        "undefined" : "Nobleman of Scotland"
+      },
+      "labels" : {
+        "IRI-based" : "Macbeth"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Orlando",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "comment" : {
+        "undefined" : "youngest son of Sir Rowland de Boys"
+      },
+      "labels" : {
+        "IRI-based" : "Orlando"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Malcolm",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "comment" : {
+        "undefined" : "Duncan's first-born son"
+      },
+      "labels" : {
+        "IRI-based" : "Malcolm"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "The character who receives and embarks on a mission"
+    },
+    "id" : "175",
+    "superClasses" : [ "40" ]
+  }, {
+    "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Exposure",
+    "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Exposure"
+    },
+    "individuals" : [ {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Information_about_context",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "labels" : {
+        "IRI-based" : "Information_about_context"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Information_about_characters",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "labels" : {
+        "IRI-based" : "Information_about_characters"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "Giving information about the setting without the audience noticing"
+    },
+    "id" : "61",
+    "superClasses" : [ "56" ]
+  }, {
+    "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Character",
+    "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Character"
+    },
+    "individuals" : [ {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Phoebe",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "comment" : {
+        "undefined" : "a disdainful shepherdess"
+      },
+      "labels" : {
+        "IRI-based" : "Phoebe"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Macbeth",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "comment" : {
+        "undefined" : "Nobleman of Scotland"
+      },
+      "labels" : {
+        "IRI-based" : "Macbeth"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Menteith",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "comment" : {
+        "undefined" : "Nobleman of Scotland"
+      },
+      "labels" : {
+        "IRI-based" : "Menteith"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Seyton",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "comment" : {
+        "undefined" : "Officer attending Macbeth"
+      },
+      "labels" : {
+        "IRI-based" : "Seyton"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Dennis",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "comment" : {
+        "undefined" : "servant to Oliver"
+      },
+      "labels" : {
+        "IRI-based" : "Dennis"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Son_of_Macduff",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "comment" : {
+        "undefined" : "Son of Macduff"
+      },
+      "labels" : {
+        "IRI-based" : "Son_of_Macduff"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Porter",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "labels" : {
+        "IRI-based" : "Porter"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Three_Witches",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "labels" : {
+        "IRI-based" : "Three_Witches"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Le_Beau",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "comment" : {
+        "undefined" : "a courtier at Duke Frederick's court"
+      },
+      "labels" : {
+        "IRI-based" : "Le_Beau"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Hecate",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "labels" : {
+        "IRI-based" : "Hecate"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Caithness",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "comment" : {
+        "undefined" : "Nobleman of Scotland"
+      },
+      "labels" : {
+        "IRI-based" : "Caithness"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Silvius",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "comment" : {
+        "undefined" : "a young shepherd in love"
+      },
+      "labels" : {
+        "IRI-based" : "Silvius"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Sergeant",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "comment" : {
+        "undefined" : "Soldier in Duncan's army"
+      },
+      "labels" : {
+        "IRI-based" : "Sergeant"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Siward",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "comment" : {
+        "undefined" : "Earl of Northumberland"
+      },
+      "labels" : {
+        "IRI-based" : "Siward"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Oliver",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "comment" : {
+        "undefined" : "Son of Sir Rowland de Boys"
+      },
+      "labels" : {
+        "IRI-based" : "Oliver"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Malcolm",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "comment" : {
+        "undefined" : "Duncan's first-born son"
+      },
+      "labels" : {
+        "IRI-based" : "Malcolm"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Waiting_Gentlewoman",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "comment" : {
+        "undefined" : "Lady attending on Lady Macbeth"
+      },
+      "labels" : {
+        "IRI-based" : "Waiting_Gentlewoman"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Celia",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "comment" : {
+        "undefined" : "Rosalind's cousin, daughter to Duke Frederick"
+      },
+      "labels" : {
+        "IRI-based" : "Celia"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Rosalind",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "comment" : {
+        "undefined" : "daughter to Duke Senior"
+      },
+      "labels" : {
+        "IRI-based" : "Rosalind"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Second_Lord_2",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "comment" : {
+        "undefined" : "Lord attending Duke Senior in exile"
+      },
+      "labels" : {
+        "IRI-based" : "Second_Lord_2"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Second_Lord_1",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "comment" : {
+        "undefined" : "attending Duke Frederick"
+      },
+      "labels" : {
+        "IRI-based" : "Second_Lord_1"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Second_Page",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "comment" : {
+        "undefined" : "attending Duke Senior in exile"
+      },
+      "labels" : {
+        "IRI-based" : "Second_Page"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Lennox",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "comment" : {
+        "undefined" : "Nobleman of Scotland"
+      },
+      "labels" : {
+        "IRI-based" : "Lennox"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Banquo",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "comment" : {
+        "undefined" : "Nobleman of Scotland"
+      },
+      "labels" : {
+        "IRI-based" : "Banquo"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Angus",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "comment" : {
+        "undefined" : "Nobleman of Scotland"
+      },
+      "labels" : {
+        "IRI-based" : "Angus"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#William",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "comment" : {
+        "undefined" : "a country youth in love with Audrey"
+      },
+      "labels" : {
+        "IRI-based" : "William"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Lady_Macbeth",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "comment" : {
+        "undefined" : "Wife of Macbeth"
+      },
+      "labels" : {
+        "IRI-based" : "Lady_Macbeth"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Audrey",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "comment" : {
+        "undefined" : "a goat-keeper"
+      },
+      "labels" : {
+        "IRI-based" : "Audrey"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Ross",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "comment" : {
+        "undefined" : "Nobleman of Scotland"
+      },
+      "labels" : {
+        "IRI-based" : "Ross"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Hymen",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "comment" : {
+        "undefined" : "god of marriage"
+      },
+      "labels" : {
+        "IRI-based" : "Hymen"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Macduff",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "comment" : {
+        "undefined" : "Nobleman of Scotland"
+      },
+      "labels" : {
+        "IRI-based" : "Macduff"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Young_Siward",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "comment" : {
+        "undefined" : "Son of Northumberland"
+      },
+      "labels" : {
+        "IRI-based" : "Young_Siward"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#First_Page",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "comment" : {
+        "undefined" : "attending Duke Senior in exile"
+      },
+      "labels" : {
+        "IRI-based" : "First_Page"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Charles",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "comment" : {
+        "undefined" : "wrestler at Duke Frederick's court"
+      },
+      "labels" : {
+        "IRI-based" : "Charles"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Old_Man",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "labels" : {
+        "IRI-based" : "Old_Man"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Adam",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "comment" : {
+        "undefined" : "servant to Oliver and friend to Orlando"
+      },
+      "labels" : {
+        "IRI-based" : "Adam"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Amiens",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "comment" : {
+        "undefined" : "Lord attending Duke Senior in exile"
+      },
+      "labels" : {
+        "IRI-based" : "Amiens"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Doctor",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "comment" : {
+        "undefined" : "Doctor attending on Lady Macbeth"
+      },
+      "labels" : {
+        "IRI-based" : "Doctor"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Sir_Oliver_Martext",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "comment" : {
+        "undefined" : "a parish priest"
+      },
+      "labels" : {
+        "IRI-based" : "Sir_Oliver_Martext"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Lady_Macduff",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "comment" : {
+        "undefined" : "Wife of Macduff"
+      },
+      "labels" : {
+        "IRI-based" : "Lady_Macduff"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Fleance",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "comment" : {
+        "undefined" : "Son of Banquo"
+      },
+      "labels" : {
+        "IRI-based" : "Fleance"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Duke_Frederick",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "comment" : {
+        "undefined" : "the usurping duke"
+      },
+      "labels" : {
+        "IRI-based" : "Duke_Frederick"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Lord_Jaques",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "comment" : {
+        "undefined" : "Lord attending Duke Senior in exile"
+      },
+      "labels" : {
+        "IRI-based" : "Lord_Jaques"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Duncan",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "comment" : {
+        "undefined" : "King of Scotland"
+      },
+      "labels" : {
+        "IRI-based" : "Duncan"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Duke_Senior",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "comment" : {
+        "undefined" : "the exiled duke, brother to Duke Frederick"
+      },
+      "labels" : {
+        "IRI-based" : "Duke_Senior"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Jaques",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "comment" : {
+        "undefined" : "son of Sir Rowland de Boys"
+      },
+      "labels" : {
+        "IRI-based" : "Jaques"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Donaldbain",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "comment" : {
+        "undefined" : "Duncan's second-born son"
+      },
+      "labels" : {
+        "IRI-based" : "Donaldbain"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Orlando",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "comment" : {
+        "undefined" : "youngest son of Sir Rowland de Boys"
+      },
+      "labels" : {
+        "IRI-based" : "Orlando"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#First_Lord_2",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "comment" : {
+        "undefined" : "Lord attending Duke Senior in exile"
+      },
+      "labels" : {
+        "IRI-based" : "First_Lord_2"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#First_Lord_1",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "comment" : {
+        "undefined" : "attending Duke Frederick"
+      },
+      "labels" : {
+        "IRI-based" : "First_Lord_1"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Corin",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "comment" : {
+        "undefined" : "a shepherd"
+      },
+      "labels" : {
+        "IRI-based" : "Corin"
+      }
+    } ],
+    "subClasses" : [ "166", "91", "147", "135", "15", "176", "137", "151" ],
+    "id" : "16",
+    "superClasses" : [ "43", "41", "10" ]
+  }, {
+    "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Donor",
+    "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Donor"
+    },
+    "individuals" : [ {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Three_Witches",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "labels" : {
+        "IRI-based" : "Three_Witches"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "The character who gives the protagonist a magical weapon or knowledge"
+    },
+    "id" : "176",
+    "superClasses" : [ "16" ]
+  }, {
+    "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Antithesis",
+    "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Antithesis"
+    },
+    "individuals" : [ {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Victims_taking_action",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "labels" : {
+        "IRI-based" : "Victims_taking_action"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Reflections_on_love",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "labels" : {
+        "IRI-based" : "Reflections_on_love"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Love_as_struggle",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "labels" : {
+        "IRI-based" : "Love_as_struggle"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Tyranny_and_conspiracies",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "labels" : {
+        "IRI-based" : "Tyranny_and_conspiracies"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#The_shaping_of_a_villain",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "labels" : {
+        "IRI-based" : "The_shaping_of_a_villain"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "Opposition to the thesis"
+    },
+    "id" : "178",
+    "superClasses" : [ "86" ]
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "169",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "21",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "32",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Heterotopic",
+    "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Heterotopic"
+    },
+    "individuals" : [ {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Oliver's_House",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "labels" : {
+        "IRI-based" : "Oliver's_House"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#France",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "labels" : {
+        "IRI-based" : "France"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Inverness_Castle",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "labels" : {
+        "IRI-based" : "Inverness_Castle"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Frederick's_Court",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "labels" : {
+        "IRI-based" : "Frederick's_Court"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "Where the subject undertakes a narrative program"
+    },
+    "id" : "54",
+    "superClasses" : [ "52" ]
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "129",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Greimas'_theory",
+    "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Greimas'_theory"
+    },
+    "subClasses" : [ "142", "63", "141", "65", "90" ],
+    "id" : "120",
+    "superClasses" : [ "44" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "181",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Space_metaphor",
+    "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Space_metaphor"
+    },
+    "id" : "74",
+    "superClasses" : [ "73" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "88",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "154",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "159",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "133",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Dysphoria",
+    "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Dysphoria"
+    },
+    "individuals" : [ {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Negative_feelings",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "labels" : {
+        "IRI-based" : "Negative_feelings"
+      }
+    } ],
+    "id" : "187",
+    "superClasses" : [ "83" ]
+  }, {
+    "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Storytelling_aspect",
+    "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Storytelling_aspect"
+    },
+    "subClasses" : [ "41", "43", "83", "52", "150", "120", "10", "157" ],
+    "id" : "44"
+  }, {
+    "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Equipment_metaphor",
+    "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Equipment_metaphor"
+    },
+    "id" : "190",
+    "superClasses" : [ "18" ]
+  }, {
+    "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Friend_metaphor",
+    "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Friend_metaphor"
+    },
+    "id" : "9",
+    "superClasses" : [ "13" ]
+  }, {
+    "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Animal_kingdom_metaphor",
+    "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Animal_kingdom_metaphor"
+    },
+    "id" : "77",
+    "superClasses" : [ "69" ]
+  }, {
+    "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Location",
+    "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Location"
+    },
+    "subClasses" : [ "86", "156", "90" ],
+    "id" : "157",
+    "superClasses" : [ "44" ]
+  }, {
+    "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Foe_metaphor",
+    "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Foe_metaphor"
+    },
+    "id" : "127",
+    "superClasses" : [ "13" ]
+  }, {
+    "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Character_concerned",
+    "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Character_concerned"
+    },
+    "subClasses" : [ "40", "16" ],
+    "id" : "10",
+    "superClasses" : [ "44" ]
+  }, {
+    "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#History",
+    "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "History"
+    },
+    "id" : "36",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Main",
+    "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Main"
+    },
+    "individuals" : [ {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Murder_of_Macduffs",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "labels" : {
+        "IRI-based" : "Murder_of_Macduffs"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Sparing_the_enemy",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "labels" : {
+        "IRI-based" : "Sparing_the_enemy"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Battling_with_feelings",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "labels" : {
+        "IRI-based" : "Battling_with_feelings"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "The subject confronts and defeats the enemy"
+    },
+    "id" : "164",
+    "superClasses" : [ "45" ]
+  }, {
+    "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#War",
+    "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "War"
+    },
+    "individuals" : [ {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Pain",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "labels" : {
+        "IRI-based" : "Pain"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Loss",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "labels" : {
+        "IRI-based" : "Loss"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Weaponry",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "labels" : {
+        "IRI-based" : "Weaponry"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Combatant",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "labels" : {
+        "IRI-based" : "Combatant"
+      }
+    } ],
+    "id" : "124",
+    "superClasses" : [ "63" ]
+  }, {
+    "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#War_metaphor",
+    "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "War_metaphor"
+    },
+    "subClasses" : [ "17", "190", "144" ],
+    "id" : "18",
+    "superClasses" : [ "31" ]
+  }, {
+    "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Food_metaphor",
+    "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Food_metaphor"
+    },
+    "id" : "75",
+    "superClasses" : [ "73" ]
+  }, {
+    "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Nutrition_metaphor",
+    "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Nutrition_metaphor"
+    },
+    "id" : "226",
+    "superClasses" : [ "71" ]
+  }, {
+    "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Actant",
+    "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Actant"
+    },
+    "individuals" : [ {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Phoebe",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "comment" : {
+        "undefined" : "a disdainful shepherdess"
+      },
+      "labels" : {
+        "IRI-based" : "Phoebe"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Menteith",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "comment" : {
+        "undefined" : "Nobleman of Scotland"
+      },
+      "labels" : {
+        "IRI-based" : "Menteith"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Macbeth",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "comment" : {
+        "undefined" : "Nobleman of Scotland"
+      },
+      "labels" : {
+        "IRI-based" : "Macbeth"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Seyton",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "comment" : {
+        "undefined" : "Officer attending Macbeth"
+      },
+      "labels" : {
+        "IRI-based" : "Seyton"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Dennis",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "comment" : {
+        "undefined" : "servant to Oliver"
+      },
+      "labels" : {
+        "IRI-based" : "Dennis"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Son_of_Macduff",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "comment" : {
+        "undefined" : "Son of Macduff"
+      },
+      "labels" : {
+        "IRI-based" : "Son_of_Macduff"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Porter",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "labels" : {
+        "IRI-based" : "Porter"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Three_Witches",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "labels" : {
+        "IRI-based" : "Three_Witches"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Le_Beau",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "comment" : {
+        "undefined" : "a courtier at Duke Frederick's court"
+      },
+      "labels" : {
+        "IRI-based" : "Le_Beau"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Hecate",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "labels" : {
+        "IRI-based" : "Hecate"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Caithness",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "comment" : {
+        "undefined" : "Nobleman of Scotland"
+      },
+      "labels" : {
+        "IRI-based" : "Caithness"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Silvius",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "comment" : {
+        "undefined" : "a young shepherd in love"
+      },
+      "labels" : {
+        "IRI-based" : "Silvius"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Sergeant",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "comment" : {
+        "undefined" : "Soldier in Duncan's army"
+      },
+      "labels" : {
+        "IRI-based" : "Sergeant"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Siward",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "comment" : {
+        "undefined" : "Earl of Northumberland"
+      },
+      "labels" : {
+        "IRI-based" : "Siward"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Oliver",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "comment" : {
+        "undefined" : "Son of Sir Rowland de Boys"
+      },
+      "labels" : {
+        "IRI-based" : "Oliver"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Malcolm",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "comment" : {
+        "undefined" : "Duncan's first-born son"
+      },
+      "labels" : {
+        "IRI-based" : "Malcolm"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Waiting_Gentlewoman",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "comment" : {
+        "undefined" : "Lady attending on Lady Macbeth"
+      },
+      "labels" : {
+        "IRI-based" : "Waiting_Gentlewoman"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Celia",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "comment" : {
+        "undefined" : "Rosalind's cousin, daughter to Duke Frederick"
+      },
+      "labels" : {
+        "IRI-based" : "Celia"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Rosalind",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "comment" : {
+        "undefined" : "daughter to Duke Senior"
+      },
+      "labels" : {
+        "IRI-based" : "Rosalind"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Second_Lord_2",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "comment" : {
+        "undefined" : "Lord attending Duke Senior in exile"
+      },
+      "labels" : {
+        "IRI-based" : "Second_Lord_2"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Second_Lord_1",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "comment" : {
+        "undefined" : "attending Duke Frederick"
+      },
+      "labels" : {
+        "IRI-based" : "Second_Lord_1"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Lennox",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "comment" : {
+        "undefined" : "Nobleman of Scotland"
+      },
+      "labels" : {
+        "IRI-based" : "Lennox"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Second_Page",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "comment" : {
+        "undefined" : "attending Duke Senior in exile"
+      },
+      "labels" : {
+        "IRI-based" : "Second_Page"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Banquo",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "comment" : {
+        "undefined" : "Nobleman of Scotland"
+      },
+      "labels" : {
+        "IRI-based" : "Banquo"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Angus",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "comment" : {
+        "undefined" : "Nobleman of Scotland"
+      },
+      "labels" : {
+        "IRI-based" : "Angus"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#William",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "comment" : {
+        "undefined" : "a country youth in love with Audrey"
+      },
+      "labels" : {
+        "IRI-based" : "William"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Lady_Macbeth",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "comment" : {
+        "undefined" : "Wife of Macbeth"
+      },
+      "labels" : {
+        "IRI-based" : "Lady_Macbeth"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Audrey",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "comment" : {
+        "undefined" : "a goat-keeper"
+      },
+      "labels" : {
+        "IRI-based" : "Audrey"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Hymen",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "comment" : {
+        "undefined" : "god of marriage"
+      },
+      "labels" : {
+        "IRI-based" : "Hymen"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Ross",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "comment" : {
+        "undefined" : "Nobleman of Scotland"
+      },
+      "labels" : {
+        "IRI-based" : "Ross"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Macduff",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "comment" : {
+        "undefined" : "Nobleman of Scotland"
+      },
+      "labels" : {
+        "IRI-based" : "Macduff"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Young_Siward",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "comment" : {
+        "undefined" : "Son of Northumberland"
+      },
+      "labels" : {
+        "IRI-based" : "Young_Siward"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#First_Page",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "comment" : {
+        "undefined" : "attending Duke Senior in exile"
+      },
+      "labels" : {
+        "IRI-based" : "First_Page"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Charles",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "comment" : {
+        "undefined" : "wrestler at Duke Frederick's court"
+      },
+      "labels" : {
+        "IRI-based" : "Charles"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Old_Man",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "labels" : {
+        "IRI-based" : "Old_Man"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Adam",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "comment" : {
+        "undefined" : "servant to Oliver and friend to Orlando"
+      },
+      "labels" : {
+        "IRI-based" : "Adam"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Amiens",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "comment" : {
+        "undefined" : "Lord attending Duke Senior in exile"
+      },
+      "labels" : {
+        "IRI-based" : "Amiens"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Doctor",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "comment" : {
+        "undefined" : "Doctor attending on Lady Macbeth"
+      },
+      "labels" : {
+        "IRI-based" : "Doctor"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Sir_Oliver_Martext",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "comment" : {
+        "undefined" : "a parish priest"
+      },
+      "labels" : {
+        "IRI-based" : "Sir_Oliver_Martext"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Lady_Macduff",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "comment" : {
+        "undefined" : "Wife of Macduff"
+      },
+      "labels" : {
+        "IRI-based" : "Lady_Macduff"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Fleance",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "comment" : {
+        "undefined" : "Son of Banquo"
+      },
+      "labels" : {
+        "IRI-based" : "Fleance"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Duke_Frederick",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "comment" : {
+        "undefined" : "the usurping duke"
+      },
+      "labels" : {
+        "IRI-based" : "Duke_Frederick"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Lord_Jaques",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "comment" : {
+        "undefined" : "Lord attending Duke Senior in exile"
+      },
+      "labels" : {
+        "IRI-based" : "Lord_Jaques"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Duncan",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "comment" : {
+        "undefined" : "King of Scotland"
+      },
+      "labels" : {
+        "IRI-based" : "Duncan"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Duke_Senior",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "comment" : {
+        "undefined" : "the exiled duke, brother to Duke Frederick"
+      },
+      "labels" : {
+        "IRI-based" : "Duke_Senior"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Jaques",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "comment" : {
+        "undefined" : "son of Sir Rowland de Boys"
+      },
+      "labels" : {
+        "IRI-based" : "Jaques"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Donaldbain",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "comment" : {
+        "undefined" : "Duncan's second-born son"
+      },
+      "labels" : {
+        "IRI-based" : "Donaldbain"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Orlando",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "comment" : {
+        "undefined" : "youngest son of Sir Rowland de Boys"
+      },
+      "labels" : {
+        "IRI-based" : "Orlando"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#First_Lord_2",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "comment" : {
+        "undefined" : "Lord attending Duke Senior in exile"
+      },
+      "labels" : {
+        "IRI-based" : "First_Lord_2"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#First_Lord_1",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "comment" : {
+        "undefined" : "attending Duke Frederick"
+      },
+      "labels" : {
+        "IRI-based" : "First_Lord_1"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Corin",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "comment" : {
+        "undefined" : "a shepherd"
+      },
+      "labels" : {
+        "IRI-based" : "Corin"
+      }
+    } ],
+    "subClasses" : [ "146", "166", "79", "152", "175", "134" ],
+    "id" : "40",
+    "superClasses" : [ "41", "10" ]
+  }, {
+    "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Hegel's_stage",
+    "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Hegel's_stage"
+    },
+    "subClasses" : [ "178", "231", "85" ],
+    "id" : "86",
+    "superClasses" : [ "157" ]
+  }, {
+    "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Opponent",
+    "equivalent" : [ "151" ],
+    "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Opponent"
+    },
+    "individuals" : [ {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Macbeth",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "comment" : {
+        "undefined" : "Nobleman of Scotland"
+      },
+      "labels" : {
+        "IRI-based" : "Macbeth"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Duke_Frederick",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "comment" : {
+        "undefined" : "the usurping duke"
+      },
+      "labels" : {
+        "IRI-based" : "Duke_Frederick"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Oliver",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "comment" : {
+        "undefined" : "Son of Sir Rowland de Boys"
+      },
+      "labels" : {
+        "IRI-based" : "Oliver"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Malcolm",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "comment" : {
+        "undefined" : "Duncan's first-born son"
+      },
+      "labels" : {
+        "IRI-based" : "Malcolm"
+      }
+    } ],
+    "attributes" : [ "equivalent" ],
+    "id" : "152",
+    "superClasses" : [ "40" ]
+  }, {
+    "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Health_metaphor",
+    "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Health_metaphor"
+    },
+    "subClasses" : [ "226", "28" ],
+    "id" : "71",
+    "superClasses" : [ "31" ]
+  }, {
+    "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Narrative_Program",
+    "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Narrative_Program"
+    },
+    "subClasses" : [ "89", "148", "94", "145" ],
+    "comment" : {
+      "undefined" : "The mission to achieve a goal"
+    },
+    "id" : "90",
+    "superClasses" : [ "120", "157" ]
+  }, {
+    "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Thymic_category",
+    "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Thymic_category"
+    },
+    "subClasses" : [ "187", "82" ],
+    "comment" : {
+      "undefined" : "The semantic category that indicates positive or negative feelings"
+    },
+    "id" : "83",
+    "superClasses" : [ "44" ]
+  }, {
+    "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Ordeal",
+    "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Ordeal"
+    },
+    "individuals" : [ {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Worry",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "labels" : {
+        "IRI-based" : "Worry"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Threat",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "labels" : {
+        "IRI-based" : "Threat"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Unrequited_love",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "labels" : {
+        "IRI-based" : "Unrequited_love"
+      }
+    } ],
+    "id" : "4",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Thesis",
+    "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Thesis"
+    },
+    "individuals" : [ {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Reacting_to_ploy",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "labels" : {
+        "IRI-based" : "Reacting_to_ploy"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Presentation_of_enemies",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "labels" : {
+        "IRI-based" : "Presentation_of_enemies"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Plotting",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "labels" : {
+        "IRI-based" : "Plotting"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Anticipating_change",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "labels" : {
+        "IRI-based" : "Anticipating_change"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Murder_of_the_king",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "labels" : {
+        "IRI-based" : "Murder_of_the_king"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Falling_in_love",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "labels" : {
+        "IRI-based" : "Falling_in_love"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Escape_from_danger",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "labels" : {
+        "IRI-based" : "Escape_from_danger"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "The beginning of the journey"
+    },
+    "id" : "231",
+    "superClasses" : [ "86" ]
+  }, {
+    "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Yorke's_theory",
+    "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Yorke's_theory"
+    },
+    "subClasses" : [ "48", "56", "5" ],
+    "id" : "150",
+    "superClasses" : [ "44" ]
+  }, {
+    "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Hero",
+    "equivalent" : [ "134" ],
+    "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Hero"
+    },
+    "attributes" : [ "equivalent" ],
+    "id" : "135",
+    "superClasses" : [ "16" ]
+  }, {
+    "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Family",
+    "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Family"
+    },
+    "individuals" : [ {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Family_feud",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "labels" : {
+        "IRI-based" : "Family_feud"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Strained_family_relationship",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "labels" : {
+        "IRI-based" : "Strained_family_relationship"
+      }
+    } ],
+    "id" : "123",
+    "superClasses" : [ "63" ]
+  }, {
+    "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Initial_lack",
+    "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Initial_lack"
+    },
+    "individuals" : [ {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Lack_of_justice",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "labels" : {
+        "IRI-based" : "Lack_of_justice"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Lack_of_power",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "labels" : {
+        "IRI-based" : "Lack_of_power"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Lack_of_safety",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "labels" : {
+        "IRI-based" : "Lack_of_safety"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Lack_of_respect",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "labels" : {
+        "IRI-based" : "Lack_of_respect"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "The subject starts their narrative program because there is an initial lack."
+    },
+    "id" : "65",
+    "superClasses" : [ "120" ]
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "203",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "189",
+    "label" : {
+      "IRI-based" : "anyURI"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "96",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "81",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "180",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Qualifying",
+    "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Qualifying"
+    },
+    "individuals" : [ {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#First_encounter_with_love_interest",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "labels" : {
+        "IRI-based" : "First_encounter_with_love_interest"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Escape_from_Macbeth",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "labels" : {
+        "IRI-based" : "Escape_from_Macbeth"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Escape_from_danger",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "labels" : {
+        "IRI-based" : "Escape_from_danger"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "The subject acquires the skills needed"
+    },
+    "id" : "172",
+    "superClasses" : [ "45" ]
+  }, {
+    "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Metaphor",
+    "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Metaphor"
+    },
+    "subClasses" : [ "73", "69", "13", "71", "18" ],
+    "id" : "31"
+  }, {
+    "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Dialogue_function",
+    "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Dialogue_function"
+    },
+    "subClasses" : [ "58", "55", "61" ],
+    "id" : "56",
+    "superClasses" : [ "150" ]
+  }, {
+    "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Glorifying",
+    "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Glorifying"
+    },
+    "individuals" : [ {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Preseverance_in_love",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "labels" : {
+        "IRI-based" : "Preseverance_in_love"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Final_battle_against_Macbeth",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "labels" : {
+        "IRI-based" : "Final_battle_against_Macbeth"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "The subject is successful in their mission and will be recognized as a victorious hero"
+    },
+    "id" : "173",
+    "superClasses" : [ "45" ]
+  }, {
+    "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Characterization",
+    "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Characterization"
+    },
+    "individuals" : [ {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Constructed_image",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "labels" : {
+        "IRI-based" : "Constructed_image"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Personal_traits",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "labels" : {
+        "IRI-based" : "Personal_traits"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Concealing_flaws",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "labels" : {
+        "IRI-based" : "Concealing_flaws"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "Describing a character, how they want to be seen and how they are actually seen"
+    },
+    "id" : "58",
+    "superClasses" : [ "56" ]
+  }, {
+    "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Helper",
+    "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Helper"
+    },
+    "individuals" : [ {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Adam",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "comment" : {
+        "undefined" : "servant to Oliver and friend to Orlando"
+      },
+      "labels" : {
+        "IRI-based" : "Adam"
+      }
+    }, {
+      "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Lady_Macbeth",
+      "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+      "comment" : {
+        "undefined" : "Wife of Macbeth"
+      },
+      "labels" : {
+        "IRI-based" : "Lady_Macbeth"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "The character who helps the protagonist in their mission"
+    },
+    "id" : "166",
+    "superClasses" : [ "40", "16" ]
+  }, {
+    "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#Midpoint_intensification_technique",
+    "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Midpoint_intensification_technique"
+    },
+    "subClasses" : [ "4", "7" ],
+    "id" : "5",
+    "superClasses" : [ "150" ]
+  } ],
+  "property" : [ {
+    "id" : "0",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "3",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "6",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "8",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "14",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "19",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "20",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "27",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "30",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "33",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "35",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "37",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "39",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "42",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "46",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "49",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "50",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "53",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "57",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "59",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "60",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "64",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "66",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "67",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "68",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "70",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "72",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "80",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "87",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "22",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "92",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "93",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "95",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "11",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "128",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "130",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "132",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "136",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "138",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "139",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "103",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "140",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "106",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "109",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "25",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "113",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "98",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "105",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "108",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "114",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "153",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "155",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "158",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "101",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "160",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "161",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "162",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "163",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "165",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "167",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "168",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "171",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "174",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "115",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "116",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "117",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "179",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "119",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "182",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "183",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "184",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "185",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "186",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "188",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "99",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "177",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "191",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "192",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "193",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "194",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "195",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "196",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "104",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "197",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "198",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "199",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "200",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "201",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "202",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "204",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "205",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "206",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "207",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "208",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "209",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "210",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "211",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "212",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "213",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "97",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "214",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "215",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "216",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "217",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "100",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "218",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "219",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "220",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "221",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "222",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "223",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "224",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "225",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "227",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "228",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "229",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "107",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "230",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "111",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "232",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "234",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "118",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "235",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "236",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "233",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "237",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "238",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "239",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "26",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "240",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "241",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "242",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "243",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "244",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "245",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "246",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "247",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "248",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "249",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "250",
+    "type" : "owl:allValuesFrom"
+  }, {
+    "id" : "251",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "252",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "24",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "253",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "254",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "255",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "256",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "257",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "102",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "258",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "259",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "260",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "261",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "262",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "263",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "264",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "265",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "266",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "110",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "267",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "112",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "268",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "269",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "23",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "270",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "271",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "272",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "273",
+    "type" : "rdfs:SubClassOf"
+  } ],
+  "propertyAttribute" : [ {
+    "range" : "2",
+    "domain" : "1",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "0"
+  }, {
+    "range" : "5",
+    "domain" : "4",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "3"
+  }, {
+    "range" : "5",
+    "domain" : "7",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "6"
+  }, {
+    "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#regards_speaker's_friend",
+    "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+    "range" : "10",
+    "label" : {
+      "IRI-based" : "regards_speaker's_friend"
+    },
+    "superproperty" : [ "11" ],
+    "domain" : "9",
+    "attributes" : [ "object" ],
+    "id" : "8"
+  }, {
+    "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#regards_speaker's_relative",
+    "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+    "range" : "10",
+    "label" : {
+      "IRI-based" : "regards_speaker's_relative"
+    },
+    "superproperty" : [ "11" ],
+    "domain" : "12",
+    "attributes" : [ "object" ],
+    "id" : "14"
+  }, {
+    "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#faces_ordeal",
+    "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+    "range" : "4",
+    "label" : {
+      "IRI-based" : "faces_ordeal"
+    },
+    "domain" : "10",
+    "attributes" : [ "object" ],
+    "id" : "19"
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#topObjectProperty",
+    "baseIri" : "http://www.w3.org/2002/07/owl",
+    "range" : "21",
+    "label" : {
+      "IRI-based" : "topObjectProperty"
+    },
+    "domain" : "21",
+    "subproperty" : [ "22", "11", "23", "24", "25", "26" ],
+    "attributes" : [ "external", "object" ],
+    "id" : "20"
+  }, {
+    "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#conveys_damage",
+    "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+    "range" : "29",
+    "label" : {
+      "IRI-based" : "conveys_damage"
+    },
+    "superproperty" : [ "11" ],
+    "domain" : "28",
+    "attributes" : [ "object" ],
+    "id" : "27"
+  }, {
+    "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#has_starting_point",
+    "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+    "range" : "32",
+    "label" : {
+      "IRI-based" : "has_starting_point"
+    },
+    "domain" : "31",
+    "comment" : {
+      "undefined" : "States whether the direction of the metaphor is from concrete to abstract or from abstract to concrete"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "30"
+  }, {
+    "range" : "2",
+    "domain" : "34",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "33"
+  }, {
+    "range" : "2",
+    "domain" : "36",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "35"
+  }, {
+    "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#related_to_work",
+    "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+    "range" : "38",
+    "label" : {
+      "IRI-based" : "related_to_work"
+    },
+    "domain" : "31",
+    "attributes" : [ "object" ],
+    "id" : "37"
+  }, {
+    "range" : "41",
+    "domain" : "40",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "39"
+  }, {
+    "range" : "41",
+    "domain" : "16",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "42"
+  }, {
+    "range" : "48",
+    "domain" : "47",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "46"
+  }, {
+    "range" : "48",
+    "domain" : "7",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "49"
+  }, {
+    "range" : "52",
+    "domain" : "51",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "50"
+  }, {
+    "range" : "52",
+    "domain" : "54",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "53"
+  }, {
+    "range" : "56",
+    "domain" : "58",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "57"
+  }, {
+    "range" : "56",
+    "domain" : "55",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "59"
+  }, {
+    "range" : "56",
+    "domain" : "61",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "60"
+  }, {
+    "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#lack_experienced_by",
+    "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+    "range" : "10",
+    "label" : {
+      "IRI-based" : "lack_experienced_by"
+    },
+    "domain" : "65",
+    "attributes" : [ "object" ],
+    "id" : "64"
+  }, {
+    "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#reflects_change",
+    "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+    "range" : "7",
+    "label" : {
+      "IRI-based" : "reflects_change"
+    },
+    "superproperty" : [ "11" ],
+    "domain" : "31",
+    "attributes" : [ "object" ],
+    "id" : "66"
+  }, {
+    "range" : "31",
+    "domain" : "13",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "67"
+  }, {
+    "range" : "31",
+    "domain" : "69",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "68"
+  }, {
+    "range" : "31",
+    "domain" : "71",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "70"
+  }, {
+    "range" : "31",
+    "domain" : "18",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "72"
+  }, {
+    "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#has_interpretation",
+    "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+    "range" : "81",
+    "label" : {
+      "IRI-based" : "has_interpretation"
+    },
+    "domain" : "31",
+    "attributes" : [ "datatype" ],
+    "id" : "80"
+  }, {
+    "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#umbrella_metaphor",
+    "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+    "range" : "88",
+    "label" : {
+      "IRI-based" : "umbrella_metaphor"
+    },
+    "domain" : "31",
+    "comment" : {
+      "undefined" : "Indicates a pattern of metaphors and summarizes their content under a general metaphor"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "87"
+  }, {
+    "iri" : "http://xmlns.com/foaf/0.1/isPrimaryTopicOf",
+    "baseIri" : "http://xmlns.com/foaf/0.1",
+    "range" : "31",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://xmlns.com/foaf/0.1/",
+        "type" : "iri"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "stable",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "isPrimaryTopicOf",
+      "undefined" : "primaryTopicOf"
+    },
+    "superproperty" : [ "20" ],
+    "domain" : "10",
+    "comment" : {
+      "undefined" : "A document that this thing is the primary topic of."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "22"
+  }, {
+    "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#has_metaphor",
+    "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+    "range" : "31",
+    "label" : {
+      "IRI-based" : "has_metaphor"
+    },
+    "domain" : "38",
+    "attributes" : [ "object" ],
+    "id" : "92"
+  }, {
+    "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#related_to_metaphor",
+    "inverse" : "37",
+    "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+    "range" : "31",
+    "label" : {
+      "IRI-based" : "related_to_metaphor"
+    },
+    "domain" : "38",
+    "attributes" : [ "object" ],
+    "id" : "93"
+  }, {
+    "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#domains_connected_through",
+    "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+    "range" : "96",
+    "label" : {
+      "IRI-based" : "domains_connected_through"
+    },
+    "domain" : "31",
+    "comment" : {
+      "undefined" : "States the shared qualities of the source and target domains."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "95"
+  }, {
+    "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#reflects_storytelling_aspect",
+    "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+    "range" : "44",
+    "label" : {
+      "IRI-based" : "reflects_storytelling_aspect"
+    },
+    "superproperty" : [ "20" ],
+    "domain" : "31",
+    "subproperty" : [ "97", "98", "8", "99", "14", "100", "101", "102", "27", "103", "104", "105", "106", "107", "108", "109", "110", "111", "112", "113", "114", "115", "116", "117", "118", "119", "66" ],
+    "attributes" : [ "object" ],
+    "id" : "11"
+  }, {
+    "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#is_found",
+    "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+    "range" : "129",
+    "label" : {
+      "IRI-based" : "is_found"
+    },
+    "domain" : "31",
+    "attributes" : [ "datatype" ],
+    "id" : "128"
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#topDataProperty",
+    "baseIri" : "http://www.w3.org/2002/07/owl",
+    "range" : "131",
+    "label" : {
+      "IRI-based" : "topDataProperty"
+    },
+    "domain" : "21",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "130"
+  }, {
+    "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#has_target_domain",
+    "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+    "range" : "133",
+    "label" : {
+      "IRI-based" : "has_target_domain"
+    },
+    "domain" : "31",
+    "attributes" : [ "datatype" ],
+    "id" : "132"
+  }, {
+    "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#structurally_mirrors",
+    "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+    "range" : "31",
+    "label" : {
+      "IRI-based" : "structurally_mirrors"
+    },
+    "domain" : "31",
+    "comment" : {
+      "undefined" : "Brings together mirroring metaphors. According to Yorke's theory, the 5 acts that comprise a story mirror each other in terms of content in this fashion: the first act mirrors the fifth, the second mirrors the fourth, and the two halves of the midpoint mirror each other."
+    },
+    "attributes" : [ "symmetric", "object" ],
+    "id" : "136"
+  }, {
+    "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#contrasted_with_metaphor",
+    "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+    "range" : "31",
+    "label" : {
+      "IRI-based" : "contrasted_with_metaphor"
+    },
+    "domain" : "31",
+    "comment" : {
+      "undefined" : "Compares metaphors with contrasting meanings across or within genres and works"
+    },
+    "attributes" : [ "symmetric", "object" ],
+    "id" : "138"
+  }, {
+    "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#similar_to_metaphor",
+    "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+    "range" : "31",
+    "label" : {
+      "IRI-based" : "similar_to_metaphor"
+    },
+    "domain" : "31",
+    "comment" : {
+      "undefined" : "Relates metaphors with similar meaning across or within genres and works"
+    },
+    "attributes" : [ "symmetric", "object" ],
+    "id" : "139"
+  }, {
+    "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#refers_to_space",
+    "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+    "range" : "52",
+    "label" : {
+      "IRI-based" : "refers_to_space"
+    },
+    "superproperty" : [ "11" ],
+    "domain" : "31",
+    "attributes" : [ "object" ],
+    "id" : "103"
+  }, {
+    "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#carries_aim",
+    "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+    "range" : "141",
+    "label" : {
+      "IRI-based" : "carries_aim"
+    },
+    "superproperty" : [ "102" ],
+    "domain" : "31",
+    "attributes" : [ "object" ],
+    "id" : "140"
+  }, {
+    "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#regards_combatant",
+    "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+    "range" : "124",
+    "label" : {
+      "IRI-based" : "regards_combatant"
+    },
+    "superproperty" : [ "11" ],
+    "domain" : "144",
+    "attributes" : [ "object" ],
+    "id" : "106"
+  }, {
+    "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#reflects_clash",
+    "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+    "range" : "142",
+    "label" : {
+      "IRI-based" : "reflects_clash"
+    },
+    "superproperty" : [ "11" ],
+    "domain" : "31",
+    "attributes" : [ "object" ],
+    "id" : "109"
+  }, {
+    "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#experiences_internal_conflict",
+    "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+    "range" : "47",
+    "label" : {
+      "IRI-based" : "experiences_internal_conflict"
+    },
+    "superproperty" : [ "20" ],
+    "domain" : "10",
+    "attributes" : [ "object" ],
+    "id" : "25"
+  }, {
+    "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#evokes_ordeal",
+    "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+    "range" : "4",
+    "label" : {
+      "IRI-based" : "evokes_ordeal"
+    },
+    "superproperty" : [ "11" ],
+    "domain" : "31",
+    "attributes" : [ "object" ],
+    "id" : "113"
+  }, {
+    "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#refers_to_natural_element",
+    "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+    "range" : "121",
+    "label" : {
+      "IRI-based" : "refers_to_natural_element"
+    },
+    "superproperty" : [ "11" ],
+    "domain" : "76",
+    "attributes" : [ "object" ],
+    "id" : "98"
+  }, {
+    "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#reflects_narrative_stage",
+    "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+    "range" : "90",
+    "label" : {
+      "IRI-based" : "reflects_narrative_stage"
+    },
+    "superproperty" : [ "11" ],
+    "domain" : "31",
+    "attributes" : [ "object" ],
+    "id" : "105"
+  }, {
+    "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#is_located_at",
+    "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+    "range" : "86",
+    "label" : {
+      "IRI-based" : "is_located_at"
+    },
+    "superproperty" : [ "11" ],
+    "domain" : "31",
+    "attributes" : [ "object" ],
+    "id" : "108"
+  }, {
+    "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#refers_to_animal",
+    "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+    "range" : "121",
+    "label" : {
+      "IRI-based" : "refers_to_animal"
+    },
+    "superproperty" : [ "11" ],
+    "domain" : "77",
+    "attributes" : [ "object" ],
+    "id" : "114"
+  }, {
+    "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#has_source_domain",
+    "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+    "range" : "154",
+    "label" : {
+      "IRI-based" : "has_source_domain"
+    },
+    "domain" : "31",
+    "attributes" : [ "datatype" ],
+    "id" : "153"
+  }, {
+    "range" : "16",
+    "domain" : "135",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "155"
+  }, {
+    "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#in_sentence",
+    "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+    "range" : "159",
+    "label" : {
+      "IRI-based" : "in_sentence"
+    },
+    "domain" : "31",
+    "attributes" : [ "datatype" ],
+    "id" : "158"
+  }, {
+    "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#expresses_lack",
+    "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+    "range" : "65",
+    "label" : {
+      "IRI-based" : "expresses_lack"
+    },
+    "superproperty" : [ "11" ],
+    "domain" : "31",
+    "attributes" : [ "object" ],
+    "id" : "101"
+  }, {
+    "range" : "16",
+    "domain" : "147",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "160"
+  }, {
+    "range" : "16",
+    "domain" : "91",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "161"
+  }, {
+    "range" : "43",
+    "domain" : "16",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "162"
+  }, {
+    "range" : "45",
+    "domain" : "164",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "163"
+  }, {
+    "range" : "16",
+    "domain" : "166",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "165"
+  }, {
+    "range" : "43",
+    "domain" : "45",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "167"
+  }, {
+    "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#has_utterance_type",
+    "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+    "range" : "169",
+    "label" : {
+      "IRI-based" : "has_utterance_type"
+    },
+    "domain" : "31",
+    "attributes" : [ "datatype" ],
+    "id" : "168"
+  }, {
+    "range" : "45",
+    "domain" : "172",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "171"
+  }, {
+    "range" : "45",
+    "domain" : "173",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "174"
+  }, {
+    "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#refers_to_war_damage",
+    "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+    "range" : "124",
+    "label" : {
+      "IRI-based" : "refers_to_war_damage"
+    },
+    "superproperty" : [ "11" ],
+    "domain" : "17",
+    "attributes" : [ "object" ],
+    "id" : "115"
+  }, {
+    "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#emotionally_charged_with",
+    "inverse" : "177",
+    "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+    "range" : "83",
+    "label" : {
+      "IRI-based" : "emotionally_charged_with"
+    },
+    "superproperty" : [ "11" ],
+    "domain" : "31",
+    "attributes" : [ "object" ],
+    "id" : "116"
+  }, {
+    "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#enhances_isotopy",
+    "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+    "range" : "63",
+    "label" : {
+      "IRI-based" : "enhances_isotopy"
+    },
+    "superproperty" : [ "11" ],
+    "domain" : "31",
+    "attributes" : [ "object" ],
+    "id" : "117"
+  }, {
+    "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#has_scholarly_interpretation",
+    "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+    "range" : "180",
+    "label" : {
+      "IRI-based" : "has_scholarly_interpretation"
+    },
+    "domain" : "31",
+    "attributes" : [ "datatype" ],
+    "id" : "179"
+  }, {
+    "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#serves_dialogue_purpose",
+    "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+    "range" : "56",
+    "label" : {
+      "IRI-based" : "serves_dialogue_purpose"
+    },
+    "superproperty" : [ "11" ],
+    "domain" : "31",
+    "attributes" : [ "object" ],
+    "id" : "119"
+  }, {
+    "domain" : "122",
+    "range" : "157",
+    "id" : "182",
+    "label" : {
+      "IRI-based" : "16",
+      "undefined" : "is a"
+    }
+  }, {
+    "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#experiences_change",
+    "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+    "range" : "7",
+    "label" : {
+      "IRI-based" : "experiences_change"
+    },
+    "domain" : "10",
+    "attributes" : [ "object" ],
+    "id" : "183"
+  }, {
+    "range" : "44",
+    "domain" : "120",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "184"
+  }, {
+    "range" : "44",
+    "domain" : "157",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "185"
+  }, {
+    "range" : "44",
+    "domain" : "10",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "186"
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#sameAs",
+    "baseIri" : "http://www.w3.org/2002/07/owl",
+    "range" : "189",
+    "label" : {
+      "IRI-based" : "sameAs"
+    },
+    "domain" : "21",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "188"
+  }, {
+    "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#refers_to_battle_equipment",
+    "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+    "range" : "124",
+    "label" : {
+      "IRI-based" : "refers_to_battle_equipment"
+    },
+    "superproperty" : [ "11" ],
+    "domain" : "190",
+    "attributes" : [ "object" ],
+    "id" : "99"
+  }, {
+    "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#emotionally_charges",
+    "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+    "range" : "21",
+    "label" : {
+      "IRI-based" : "emotionally_charges"
+    },
+    "domain" : "21",
+    "attributes" : [ "object" ],
+    "id" : "177"
+  }, {
+    "range" : "44",
+    "domain" : "83",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "191"
+  }, {
+    "range" : "44",
+    "domain" : "43",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "192"
+  }, {
+    "range" : "44",
+    "domain" : "150",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "193"
+  }, {
+    "range" : "44",
+    "domain" : "52",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "194"
+  }, {
+    "range" : "69",
+    "domain" : "77",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "195"
+  }, {
+    "range" : "69",
+    "domain" : "76",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "196"
+  }, {
+    "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#refers_to_spatial_element",
+    "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+    "range" : "122",
+    "label" : {
+      "IRI-based" : "refers_to_spatial_element"
+    },
+    "superproperty" : [ "11" ],
+    "domain" : "74",
+    "attributes" : [ "object" ],
+    "id" : "104"
+  }, {
+    "range" : "44",
+    "domain" : "41",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "197"
+  }, {
+    "range" : "69",
+    "domain" : "78",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "198"
+  }, {
+    "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#has_clash_participants",
+    "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+    "range" : "10",
+    "label" : {
+      "IRI-based" : "has_clash_participants"
+    },
+    "domain" : "142",
+    "attributes" : [ "object" ],
+    "id" : "199"
+  }, {
+    "range" : "73",
+    "domain" : "75",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "200"
+  }, {
+    "range" : "73",
+    "domain" : "74",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "201"
+  }, {
+    "iri" : "http://purl.org/spar/c4o/hasContent",
+    "baseIri" : "http://purl.org/spar/c4o",
+    "range" : "203",
+    "label" : {
+      "IRI-based" : "hasContent",
+      "en" : "has content"
+    },
+    "domain" : "31",
+    "comment" : {
+      "en" : "It is used to specify the textual content of a particular FRBR expression."
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "202"
+  }, {
+    "range" : "120",
+    "domain" : "90",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "204"
+  }, {
+    "range" : "120",
+    "domain" : "63",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "205"
+  }, {
+    "range" : "120",
+    "domain" : "142",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "206"
+  }, {
+    "range" : "120",
+    "domain" : "65",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "207"
+  }, {
+    "range" : "120",
+    "domain" : "141",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "208"
+  }, {
+    "range" : "16",
+    "domain" : "176",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "209"
+  }, {
+    "range" : "16",
+    "domain" : "15",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "210"
+  }, {
+    "range" : "16",
+    "domain" : "151",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "211"
+  }, {
+    "range" : "16",
+    "domain" : "137",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "212"
+  }, {
+    "range" : "18",
+    "domain" : "144",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "213"
+  }, {
+    "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#conveys_pain",
+    "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+    "range" : "124",
+    "label" : {
+      "IRI-based" : "conveys_pain"
+    },
+    "superproperty" : [ "11" ],
+    "domain" : "17",
+    "attributes" : [ "object" ],
+    "id" : "97"
+  }, {
+    "range" : "18",
+    "domain" : "190",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "214"
+  }, {
+    "range" : "40",
+    "domain" : "166",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "215"
+  }, {
+    "range" : "40",
+    "domain" : "146",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "216"
+  }, {
+    "range" : "18",
+    "domain" : "17",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "217"
+  }, {
+    "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#refers_to_food",
+    "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+    "range" : "29",
+    "label" : {
+      "IRI-based" : "refers_to_food"
+    },
+    "superproperty" : [ "11" ],
+    "domain" : "75",
+    "attributes" : [ "object" ],
+    "id" : "100"
+  }, {
+    "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#refers_to_internal_conflict",
+    "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+    "range" : "47",
+    "label" : {
+      "IRI-based" : "refers_to_internal_conflict"
+    },
+    "domain" : "41",
+    "attributes" : [ "object" ],
+    "id" : "218"
+  }, {
+    "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#experiences_lack",
+    "inverse" : "64",
+    "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+    "range" : "65",
+    "label" : {
+      "IRI-based" : "experiences_lack"
+    },
+    "domain" : "10",
+    "attributes" : [ "object" ],
+    "id" : "219"
+  }, {
+    "range" : "10",
+    "domain" : "16",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "220"
+  }, {
+    "range" : "10",
+    "domain" : "40",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "221"
+  }, {
+    "range" : "13",
+    "domain" : "127",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "222"
+  }, {
+    "range" : "63",
+    "domain" : "126",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "223"
+  }, {
+    "range" : "13",
+    "domain" : "12",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "224"
+  }, {
+    "range" : "13",
+    "domain" : "9",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "225"
+  }, {
+    "range" : "63",
+    "domain" : "124",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "227"
+  }, {
+    "range" : "63",
+    "domain" : "123",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "228"
+  }, {
+    "range" : "63",
+    "domain" : "84",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "229"
+  }, {
+    "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#conveys_nutrition",
+    "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+    "range" : "29",
+    "label" : {
+      "IRI-based" : "conveys_nutrition"
+    },
+    "superproperty" : [ "11" ],
+    "domain" : "226",
+    "attributes" : [ "object" ],
+    "id" : "107"
+  }, {
+    "range" : "63",
+    "domain" : "125",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "230"
+  }, {
+    "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#regards_speaker's_enemy",
+    "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+    "range" : "10",
+    "label" : {
+      "IRI-based" : "regards_speaker's_enemy"
+    },
+    "superproperty" : [ "11" ],
+    "domain" : "127",
+    "attributes" : [ "object" ],
+    "id" : "111"
+  }, {
+    "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#hero_mark_of",
+    "inverse" : "233",
+    "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+    "range" : "10",
+    "label" : {
+      "IRI-based" : "hero_mark_of"
+    },
+    "domain" : "45",
+    "comment" : {
+      "undefined" : "States whether trial functions as marking of the hero"
+    },
+    "attributes" : [ "object" ],
+    "id" : "232"
+  }, {
+    "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#is_conceptual_metaphor",
+    "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+    "range" : "181",
+    "label" : {
+      "IRI-based" : "is_conceptual_metaphor"
+    },
+    "domain" : "31",
+    "attributes" : [ "datatype" ],
+    "id" : "234"
+  }, {
+    "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#reflects_internal_conflict",
+    "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+    "range" : "47",
+    "label" : {
+      "IRI-based" : "reflects_internal_conflict"
+    },
+    "superproperty" : [ "11" ],
+    "domain" : "31",
+    "attributes" : [ "object", "transitive" ],
+    "id" : "118"
+  }, {
+    "range" : "63",
+    "domain" : "62",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "235"
+  }, {
+    "range" : "63",
+    "domain" : "29",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "236"
+  }, {
+    "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#marks_hero",
+    "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+    "range" : "10",
+    "label" : {
+      "IRI-based" : "marks_hero"
+    },
+    "domain" : "45",
+    "attributes" : [ "object" ],
+    "id" : "233"
+  }, {
+    "range" : "63",
+    "domain" : "122",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "237"
+  }, {
+    "range" : "157",
+    "domain" : "156",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "238"
+  }, {
+    "range" : "157",
+    "domain" : "86",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "239"
+  }, {
+    "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#is_articulated_by",
+    "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+    "range" : "41",
+    "label" : {
+      "IRI-based" : "is_articulated_by"
+    },
+    "superproperty" : [ "20" ],
+    "domain" : "31",
+    "attributes" : [ "functional", "object" ],
+    "id" : "26"
+  }, {
+    "range" : "63",
+    "domain" : "121",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "240"
+  }, {
+    "range" : "157",
+    "domain" : "90",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "241"
+  }, {
+    "range" : "38",
+    "domain" : "149",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "242"
+  }, {
+    "range" : "38",
+    "domain" : "143",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "243"
+  }, {
+    "iri" : "https://w3id.org/framester/metanet/schema/isMetaphorRelatedTo",
+    "baseIri" : "https://w3id.org/framester/metanet/schema",
+    "range" : "31",
+    "label" : {
+      "IRI-based" : "isMetaphorRelatedTo"
+    },
+    "domain" : "31",
+    "attributes" : [ "symmetric", "external", "object", "transitive" ],
+    "id" : "244"
+  }, {
+    "range" : "31",
+    "domain" : "73",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "245"
+  }, {
+    "range" : "38",
+    "domain" : "2",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "246"
+  }, {
+    "range" : "150",
+    "domain" : "48",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "247"
+  }, {
+    "range" : "150",
+    "domain" : "5",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "248"
+  }, {
+    "range" : "150",
+    "domain" : "56",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "249"
+  }, {
+    "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#reflects_internal_conflict",
+    "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+    "range" : "47",
+    "label" : {
+      "IRI-based" : "reflects_internal_conflict"
+    },
+    "superproperty" : [ "11" ],
+    "domain" : "31",
+    "attributes" : [ "allValues", "object", "transitive" ],
+    "id" : "250"
+  }, {
+    "range" : "44",
+    "domain" : "31",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "251"
+  }, {
+    "range" : "231",
+    "domain" : "85",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "252"
+  }, {
+    "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#articulates_metaphor",
+    "inverse" : "26",
+    "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+    "range" : "31",
+    "label" : {
+      "IRI-based" : "articulates_metaphor"
+    },
+    "superproperty" : [ "20" ],
+    "domain" : "41",
+    "attributes" : [ "object" ],
+    "id" : "24"
+  }, {
+    "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#belongs_to_work",
+    "inverse" : "92",
+    "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+    "range" : "38",
+    "label" : {
+      "IRI-based" : "belongs_to_work"
+    },
+    "domain" : "31",
+    "attributes" : [ "object" ],
+    "id" : "253"
+  }, {
+    "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#connotations",
+    "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+    "range" : "170",
+    "label" : {
+      "IRI-based" : "connotations"
+    },
+    "domain" : "31",
+    "attributes" : [ "datatype" ],
+    "id" : "254"
+  }, {
+    "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#refers_to_change",
+    "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+    "range" : "7",
+    "label" : {
+      "IRI-based" : "refers_to_change"
+    },
+    "domain" : "41",
+    "attributes" : [ "object" ],
+    "id" : "255"
+  }, {
+    "range" : "231",
+    "domain" : "178",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "256"
+  }, {
+    "range" : "34",
+    "domain" : "1",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "257"
+  }, {
+    "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#carries_value",
+    "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+    "range" : "141",
+    "label" : {
+      "IRI-based" : "carries_value"
+    },
+    "superproperty" : [ "11" ],
+    "domain" : "31",
+    "subproperty" : [ "140" ],
+    "attributes" : [ "object" ],
+    "id" : "102"
+  }, {
+    "range" : "90",
+    "domain" : "145",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "258"
+  }, {
+    "range" : "90",
+    "domain" : "94",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "259"
+  }, {
+    "range" : "83",
+    "domain" : "82",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "260"
+  }, {
+    "range" : "83",
+    "domain" : "187",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "261"
+  }, {
+    "range" : "71",
+    "domain" : "28",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "262"
+  }, {
+    "range" : "71",
+    "domain" : "226",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "263"
+  }, {
+    "range" : "90",
+    "domain" : "148",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "264"
+  }, {
+    "range" : "90",
+    "domain" : "89",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "265"
+  }, {
+    "range" : "86",
+    "domain" : "85",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "266"
+  }, {
+    "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#refers_to_plant",
+    "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+    "range" : "121",
+    "label" : {
+      "IRI-based" : "refers_to_plant"
+    },
+    "superproperty" : [ "11" ],
+    "domain" : "78",
+    "attributes" : [ "object" ],
+    "id" : "110"
+  }, {
+    "range" : "86",
+    "domain" : "231",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "267"
+  }, {
+    "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#evokes_trial",
+    "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+    "range" : "45",
+    "label" : {
+      "IRI-based" : "evokes_trial"
+    },
+    "superproperty" : [ "11" ],
+    "domain" : "31",
+    "attributes" : [ "object" ],
+    "id" : "112"
+  }, {
+    "iri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm#endures_trial",
+    "baseIri" : "https://github.com/stormOntology/stormOntology.github.io/blob/master/storm",
+    "range" : "45",
+    "label" : {
+      "IRI-based" : "endures_trial"
+    },
+    "domain" : "10",
+    "attributes" : [ "object" ],
+    "id" : "268"
+  }, {
+    "range" : "86",
+    "domain" : "178",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "269"
+  }, {
+    "iri" : "http://purl.org/spar/fabio/hasSubjectTerm",
+    "baseIri" : "http://purl.org/spar/fabio",
+    "range" : "63",
+    "label" : {
+      "IRI-based" : "hasSubjectTerm",
+      "en" : "has subject term"
+    },
+    "superproperty" : [ "20" ],
+    "domain" : "38",
+    "comment" : {
+      "en" : "This property is used to associate a frbr:Endeavour to a term in a particular classification system."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "23"
+  }, {
+    "range" : "40",
+    "domain" : "152",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "270"
+  }, {
+    "range" : "40",
+    "domain" : "79",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "271"
+  }, {
+    "range" : "40",
+    "domain" : "134",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "272"
+  }, {
+    "range" : "40",
+    "domain" : "175",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "273"
+  } ]
+}
