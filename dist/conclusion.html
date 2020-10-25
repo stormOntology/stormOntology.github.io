@@ -144,13 +144,13 @@
                 </div>
             
             <div class="row justify-content-center no-gutters">
-                <div class="col-lg-6" style="width:50% !important;"> <canvas id="myChart" style="width:50% !important; height:50%;"></canvas>
+                <div class="col-lg-6" style="width:50% !important; margin-top: 0.5em;"> <canvas id="myChart" style="width:50% !important; height:50%; margin-top: 0.5em;"></canvas>
                     <script>
                     var ctx = document.getElementById('myChart');
                     var myChart = new Chart(ctx, {
                         type: 'doughnut',
                         data: {
-                            labels: ['Metaphors in AS You Like It', 'Mataphors in Mcbeth'],
+                            labels: ['Metaphors in AS You Like It', 'Mataphors in Macbeth'],
                             datasets: [{
                                 data: [36, 31],
                                 backgroundColor: [
@@ -181,7 +181,7 @@
                         }
                     });
                     </script>
-                    <canvas id="lineChart" style="width:50%; height:50%;"></canvas>
+                    <canvas id="lineChart" style="width:50%; height:50%; margin-top: 0.5em !important;"></canvas>
                     <script>
                         //line
             var ctxL = document.getElementById("lineChart").getContext('2d');
@@ -224,7 +224,7 @@
                         <div class="d-flex h-100">
                             <div class="project-text w-100 my-auto text-center text-lg-right">
                                 <h4 class="text-white">Comparison: Macbeth vs As You Like It</h4>
-                                <p class="mb-0 text-white-50">One of the aim of this project is to give the possibility to visualize the comparisons between Tragedy and Comedy. If we compare the number and the nature of the Metaphorss in  As You Like It and in Macbeth we obtain  </p>
+                                <p class="mb-0 text-white-50">One of the aim of this project is to give the possibility of visualizing the relationship, in terms of metaphors, between Tragedy and Comedy. If we compare the number and the nature of the Metaphors in  both plays we could see that the amount of metaphors in <i>Macbeth</i> is higher than in <i>As You Like It</i>.Moreover if we identify the main theme (<i>Health, Nature, Living Entity, War, Physical Object</i>) of each metaphor and we try to redifine a comparison between the number of metaphor for each theme in both plays we could see that we have great thematic differences in Comedy and Tragedy. </p>
                                 
                                 <hr class="d-none d-lg-block mb-0 mr-0" />
                             </div>
@@ -233,7 +233,7 @@
                 </div>
             </div>
             <div class="row justify-content-center no-gutters mb-5 mb-lg-0"><div class="col-lg-6">
-                <canvas id="horizontalBar1" style="max-width: 500px;"></canvas>
+                <canvas id="horizontalBar1" style="max-width: 500px; margin-top: 0.5em;"></canvas>
                     <script>
                     new Chart(document.getElementById("horizontalBar1"), {
                     "type": "horizontalBar",
@@ -276,7 +276,7 @@
                         <div class="d-flex h-100">
                             <div class="project-text w-100 my-auto text-center text-lg-left">
                                 <h4 class="text-white">The differences in space</h4>
-                                <p class="mb-0 text-white-50"><p class="mb-0 text-white-50">
+                                <p class="mb-0 text-white-50">If we consider again the Hegel's theory about <i>Thesis</i>, <i>Antthesis</i> and <i>Synthesis</i>, is it possibe to see differences in the location of metaphors in Comedy and Tragedy. <p class="mb-0 text-white-50">
                               
 
                                 </p>
@@ -286,9 +286,8 @@
                         </div>
                     </div>
                 </div>
-            
-        
-        <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
+            </div>
+        <div class="row justify-content-center no-gutters">
             <div class="col-lg-6"><canvas id="radarChart"></canvas>
                 <script>
                     //radar
@@ -327,17 +326,14 @@
             });
                 </script>
                 </div>
-            <div class="col-lg-6">
+            <div class="col-lg-6 order-lg-first">
                 <div class="bg-black text-center h-100 project">
                     <div class="d-flex h-100">
-                        <div class="project-text w-100 my-auto text-center text-lg-left">
+                        <div class="project-text w-100 my-auto text-center text-lg-right">
                             <h4 class="text-white">The differences in themes</h4>
-                            <p class="mb-0 text-white-50"><p class="mb-0 text-white-50">
-                          
-
-                            </p>
+                            <p class="mb-0 text-white-50">All or most of metaphors related to initial lack and internal conflict were used by the protagonists (Macbeth in <i>Macbeth</i> and Orlando in <i>As You Like It</i>). In general, most of the metaphors were articulated by the main characters (Macbeth, Lady Macbeth, Orlando, Rosalind). We also found a high quantity of metaphors (out of all metaphors somehow related to a theme) to be evoking the dominant themes of each play: power, politics and remorse in <i>Macbeth</i> and love and family in <i>As You Like It</i></p>
                             
-                            <hr class="d-none d-lg-block mb-0 ml-0" />
+                            <hr class="d-none d-lg-block mb-0 mr-0" />
                         </div>
                     </div>
                 </div>
