@@ -14,6 +14,14 @@
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="css/mdb.min.css" rel="stylesheet">
+    <!-- Your custom styles (optional) -->
+    <link href="css/style.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
         <style>
             .big{
                 color:whitesmoke;
@@ -134,7 +142,209 @@
                         </div>
                     </div>
                 </div>
+            
+            <div class="row justify-content-center no-gutters">
+                <div class="col-lg-6" style="width:50% !important;"> <canvas id="myChart" style="width:50% !important; height:50%;"></canvas>
+                    <script>
+                    var ctx = document.getElementById('myChart');
+                    var myChart = new Chart(ctx, {
+                        type: 'doughnut',
+                        data: {
+                            labels: ['Metaphors in AS You Like It', 'Mataphors in Mcbeth'],
+                            datasets: [{
+                                data: [36, 31],
+                                backgroundColor: [
+                                    'rgba(255, 99, 132, 0.2)',
+                                    'rgba(54, 162, 235, 0.2)',
+                                    'rgba(255, 206, 86, 0.2)',
+                                    'rgba(75, 192, 192, 0.2)',
+                                    'rgba(153, 102, 255, 0.2)',
+                                    'rgba(255, 159, 64, 0.2)'
+                                ],
+                                borderColor: [
+                                    'rgba(255, 99, 132, 1)',
+                                    'rgba(54, 162, 235, 1)',
+                                    'rgba(255, 206, 86, 1)',
+                                    'rgba(75, 192, 192, 1)',
+                                    'rgba(153, 102, 255, 1)',
+                                    'rgba(255, 159, 64, 1)'
+                                ],
+                                borderWidth: 1
+                            }]
+                        },
+                        options: {
+                            scales: {
+                                y: {
+                                    beginAtZero: true
+                                }
+                            }
+                        }
+                    });
+                    </script>
+                    <canvas id="lineChart" style="width:50%; height:50%;"></canvas>
+                    <script>
+                        //line
+            var ctxL = document.getElementById("lineChart").getContext('2d');
+            var myLineChart = new Chart(ctxL, {
+            type: 'line',
+            data: {
+            labels: ["Health", "Nature", "Living Entity", "War", "Physical Object"],
+            datasets: [{
+            label: "Macbeth",
+            data: [ 3, 10, 2, 1, 6],
+            backgroundColor: [
+            'rgba(105, 0, 132, .2)'
+            ],
+            borderColor: [
+            'rgba(200, 99, 132, .7)'
+            ],
+            borderWidth: 2
+            },
+            {
+            label: "As You Like It",
+            data: [9, 5, 10, 5, 5],
+            backgroundColor: [
+            'rgba(0, 137, 132, .2)',
+            ],
+            borderColor: [
+            'rgba(0, 10, 130, .7)',
+            ],
+            borderWidth: 2
+            }
+            ]
+            },
+            options: {
+            responsive: true
+            }
+            });
+                    </script>
+                    </div>
+                <div class="col-lg-6 order-lg-first">
+                    <div class="bg-black text-center h-100 project">
+                        <div class="d-flex h-100">
+                            <div class="project-text w-100 my-auto text-center text-lg-right">
+                                <h4 class="text-white">Comparison: Macbeth vs As You Like It</h4>
+                                <p class="mb-0 text-white-50">One of the aim of this project is to give the possibility to visualize the comparisons between Tragedy and Comedy. If we compare the number and the nature of the Metaphorss in  As You Like It and in Macbeth we obtain  </p>
+                                
+                                <hr class="d-none d-lg-block mb-0 mr-0" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
+            <div class="row justify-content-center no-gutters mb-5 mb-lg-0"><div class="col-lg-6">
+                <canvas id="horizontalBar1" style="max-width: 500px;"></canvas>
+                    <script>
+                    new Chart(document.getElementById("horizontalBar1"), {
+                    "type": "horizontalBar",
+                    "data": {
+                    "labels": ["Thesis", "Antithesis", "Synthesis"],
+                    "datasets": [{
+                    "label": "As You Like It",
+                    "data": [1, 2, 0],
+                    "fill": false,
+                    "backgroundColor": [ 'rgba(255, 99, 132, 0.2)', 'rgba(255, 99, 132, 0.2)', 'rgba(255, 99, 132, 0.2)'],
+                    "borderColor": [ "rgba(255, 99, 132, 0.2)",  'rgba(255, 99, 132, 0.2)', 'rgba(255, 99, 132, 0.2)'],
+                    "borderWidth": 1
+                    },
+                    {
+                'label': "Macbeth",
+                'data': [2,4,2],
+
+                "backgroundColor": [ 'rgba(0, 137, 132, .2)', 'rgba(0, 137, 132, .2)', 'rgba(0, 137, 132, .2)'
+                    ],
+                    "borderColor": [ 'rgba(0, 137, 132, .2)', 'rgba(0, 137, 132, .2)', 'rgba(0, 137, 132, .2)'
+                    ],
+                    "borderWidth": 1
+                    }]
+                    
+                    },
+                    "options": {
+                    "scales": {
+                    "xAxes": [{
+                    "ticks": {
+                    "beginAtZero": true
+                    }
+                    }]
+                    }
+                    }
+                    });
+                    </script>
+                </div>
+                <div class="col-lg-6">
+                    <div class="bg-black text-center h-100 project">
+                        <div class="d-flex h-100">
+                            <div class="project-text w-100 my-auto text-center text-lg-left">
+                                <h4 class="text-white">The differences in space</h4>
+                                <p class="mb-0 text-white-50"><p class="mb-0 text-white-50">
+                              
+
+                                </p>
+                                
+                                <hr class="d-none d-lg-block mb-0 ml-0" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+        
+        <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
+            <div class="col-lg-6"><canvas id="radarChart"></canvas>
+                <script>
+                    //radar
+            var ctxR = document.getElementById("radarChart").getContext('2d');
+            var myRadarChart = new Chart(ctxR, {
+            type: 'radar',
+            data: {
+            labels: ["Guilt", "Tiranny", "Insect", "Ambition", "Suffering", "Delights of Love", "Unrequired Love", "Usurping the throne", "Family feud", "Strained family relationship"],
+            datasets: [{
+            label: "Macbeth",
+            data: [2, 3, 1, 2, 0, 0, 0, 0, 0, 0, 0 ],
+            backgroundColor: [
+            'rgba(105, 0, 132, .2)',
+            ],
+            borderColor: [
+            'rgba(200, 99, 132, .7)',
+            ],
+            borderWidth: 2
+            },
+            {
+            label: "As  YouLike It",
+            data: [0, 0, 0, 0, 8, 2, 2, 2, 1, 3, 1],
+            backgroundColor: [
+            'rgba(0, 250, 220, .2)',
+            ],
+            borderColor: [
+            'rgba(0, 213, 132, .7)',
+            ],
+            borderWidth: 2
+            }
+            ]
+            },
+            options: {
+            responsive: true
+            }
+            });
+                </script>
+                </div>
+            <div class="col-lg-6">
+                <div class="bg-black text-center h-100 project">
+                    <div class="d-flex h-100">
+                        <div class="project-text w-100 my-auto text-center text-lg-left">
+                            <h4 class="text-white">The differences in themes</h4>
+                            <p class="mb-0 text-white-50"><p class="mb-0 text-white-50">
+                          
+
+                            </p>
+                            
+                            <hr class="d-none d-lg-block mb-0 ml-0" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
             <!--endchanged part-->
         </section>
         
